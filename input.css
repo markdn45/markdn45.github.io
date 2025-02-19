@@ -4,6 +4,11 @@
         transform: translate3d(0, 0, 1px) rotate(360deg);
     }
 }
+::selection {
+    background: #f0b100;
+    color: #1b1718;
+    border-radius: 5px;
+}
 
 .background {
     position: fixed;
